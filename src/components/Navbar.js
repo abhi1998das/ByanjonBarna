@@ -6,7 +6,7 @@ function Navbar() {
     <div className="bg-light">
       <div className="container">
         <div className="row">
-          <div className="col-sm-3 m-auto d-none d-lg-block">
+          <div className="col-sm-2 m-auto d-none d-lg-block e4">
             <img
               className="logo"
               src="https://imgur.com/kdqeZea.png"
@@ -19,7 +19,7 @@ function Navbar() {
 
             <nav
               id="default2"
-              className="navbar navbar-expand-md navbar-light bg-light default2"
+              className="navbar navbar-expand-md navbar-light bg-light default2 e2"
             >
               <div id="nav-size" className="container-fuil">
                 <div className="row">
@@ -48,7 +48,7 @@ function Navbar() {
               </button>
 
               <div
-                className="collapse navbar-collapse"
+                className="collapse navbar-collapse "
                 id="navbarsExampleDefault"
               >
                 <ul className="navbar-nav mr-auto extraaa">
