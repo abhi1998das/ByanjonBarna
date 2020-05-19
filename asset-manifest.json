@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ByanjonBarna/static/css/main.ceb2aa04.chunk.css",
-    "main.js": "/ByanjonBarna/static/js/main.300369e1.chunk.js",
-    "main.js.map": "/ByanjonBarna/static/js/main.300369e1.chunk.js.map",
+    "main.css": "/ByanjonBarna/static/css/main.51da0984.chunk.css",
+    "main.js": "/ByanjonBarna/static/js/main.2e1d370f.chunk.js",
+    "main.js.map": "/ByanjonBarna/static/js/main.2e1d370f.chunk.js.map",
     "runtime-main.js": "/ByanjonBarna/static/js/runtime-main.050b46c5.js",
     "runtime-main.js.map": "/ByanjonBarna/static/js/runtime-main.050b46c5.js.map",
     "static/js/2.ad1a4375.chunk.js": "/ByanjonBarna/static/js/2.ad1a4375.chunk.js",
     "static/js/2.ad1a4375.chunk.js.map": "/ByanjonBarna/static/js/2.ad1a4375.chunk.js.map",
     "index.html": "/ByanjonBarna/index.html",
-    "precache-manifest.72320a7d872850020e09c012025e8768.js": "/ByanjonBarna/precache-manifest.72320a7d872850020e09c012025e8768.js",
+    "precache-manifest.10d115b3237052380ada112a8e94321b.js": "/ByanjonBarna/precache-manifest.10d115b3237052380ada112a8e94321b.js",
     "service-worker.js": "/ByanjonBarna/service-worker.js",
-    "static/css/main.ceb2aa04.chunk.css.map": "/ByanjonBarna/static/css/main.ceb2aa04.chunk.css.map",
+    "static/css/main.51da0984.chunk.css.map": "/ByanjonBarna/static/css/main.51da0984.chunk.css.map",
     "static/js/2.ad1a4375.chunk.js.LICENSE.txt": "/ByanjonBarna/static/js/2.ad1a4375.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.050b46c5.js",
     "static/js/2.ad1a4375.chunk.js",
-    "static/css/main.ceb2aa04.chunk.css",
-    "static/js/main.300369e1.chunk.js"
+    "static/css/main.51da0984.chunk.css",
+    "static/js/main.2e1d370f.chunk.js"
   ]
 }
