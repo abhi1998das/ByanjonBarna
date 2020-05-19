@@ -24,18 +24,23 @@ export default class Caros extends Component {
       if (i === 0) {
         lostr.push(
           <li
+            key={i}
             data-target="#myCarousel"
             data-slide-to={i.toString()}
-            class="active"
+            className="active"
           ></li>
         );
       } else {
         lostr.push(
-          <li data-target="#myCarousel" data-slide-to={i.toString()}></li>
+          <li
+            key={i}
+            data-target="#myCarousel"
+            data-slide-to={i.toString()}
+          ></li>
         );
       }
     }
-    return <ol class="carousel-indicators">{lostr}</ol>;
+    return <ol className="carousel-indicators">{lostr}</ol>;
   }
 
   lister2(images) {
@@ -44,22 +49,22 @@ export default class Caros extends Component {
     for (let i = 0; i < len; i++) {
       if (i === 0) {
         lostr.push(
-          <div class="carousel-item active">
+          <div className="carousel-item active" key={i}>
             <img src={images[i].urls.regular} alt="imgx" />
           </div>
         );
       } else {
         lostr.push(
-          <div class="carousel-item ">
+          <div className="carousel-item " key={i}>
             <img src={images[i].urls.regular} alt="imagex" />
           </div>
         );
       }
     }
     lostr.push(
-      <div class="carousel-item">
+      <div className="carousel-item" key={100}>
         <svg
-          class="bd-placeholder-img"
+          className="bd-placeholder-img"
           width="100%"
           height="100%"
           xmlns="http://www.w3.org/2000/svg"
@@ -80,8 +85,8 @@ export default class Caros extends Component {
 
           <rect width="100%" height="100%" fill="url(#grad1)" />
         </svg>
-        <div class="container">
-          <div class="carousel-caption">
+        <div className="container">
+          <div className="carousel-caption">
             <h1>Another example headline.</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -99,9 +104,9 @@ export default class Caros extends Component {
       </div>
     );
     lostr.push(
-      <div class="carousel-item">
+      <div className="carousel-item" key={200}>
         <svg
-          class="bd-placeholder-img"
+          className="bd-placeholder-img"
           width="100%"
           height="100%"
           xmlns="http://www.w3.org/2000/svg"
@@ -111,8 +116,8 @@ export default class Caros extends Component {
         >
           <rect width="100%" height="100%" fill="#777" />
         </svg>
-        <div class="container">
-          <div class="carousel-caption text-right">
+        <div className="container">
+          <div className="carousel-caption text-right">
             <h1>See more of us</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -129,12 +134,12 @@ export default class Caros extends Component {
         </div>
       </div>
     );
-    return <div class="carousel-inner">{lostr}</div>;
+    return <div className="carousel-inner">{lostr}</div>;
   }
 
   render() {
     return (
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" className="carousel slide" data-ride="carousel">
         {this.lister(this.state.images)}
 
         {this.lister2(this.state.images)}

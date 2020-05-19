@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Rest() {
   return (
-    <div class="container marketing">
-      <div class="row">
-        <div class="col-lg-4">
+    <div className="container marketing">
+      <div className="row">
+        <div className="col-lg-4">
           <svg
-            class="bd-placeholder-img rounded-circle"
+            className="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
             xmlns="http://www.w3.org/2000/svg"
@@ -29,14 +29,14 @@ function Rest() {
             cursus magna.
           </p>
           <p>
-            <Link class="btn btn-secondary" to="/" role="button">
+            <Link className="btn btn-secondary" to="/" role="button">
               View details &raquo;
             </Link>
           </p>
         </div>
-        <div class="col-lg-4">
+        <div className="col-lg-4">
           <svg
-            class="bd-placeholder-img rounded-circle"
+            className="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
             xmlns="http://www.w3.org/2000/svg"
@@ -59,14 +59,14 @@ function Rest() {
             mauris condimentum nibh.
           </p>
           <p>
-            <Link class="btn btn-secondary" to="/" role="button">
+            <Link className="btn btn-secondary" to="/" role="button">
               View details &raquo;
             </Link>
           </p>
         </div>
-        <div class="col-lg-4">
+        <div className="col-lg-4">
           <svg
-            class="bd-placeholder-img rounded-circle"
+            className="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
             xmlns="http://www.w3.org/2000/svg"
@@ -89,31 +89,31 @@ function Rest() {
             nibh, ut fermentum massa justo sit amet risus.
           </p>
           <p>
-            <Link class="btn btn-secondary" to="/" role="button">
+            <Link className="btn btn-secondary" to="/" role="button">
               View details &raquo;
             </Link>
           </p>
         </div>
       </div>
 
-      <hr class="featurette-divider" />
+      <hr className="featurette-divider" />
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">
+      <div className="row featurette">
+        <div className="col-md-7">
+          <h2 className="featurette-heading">
             First featurette heading.{" "}
-            <span class="text-muted">It’ll blow your mind.</span>
+            <span className="text-muted">It’ll blow your mind.</span>
           </h2>
-          <p class="lead">
+          <p className="lead">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
             ligula porta felis euismod semper. Praesent commodo cursus magna,
             vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
             commodo.
           </p>
         </div>
-        <div class="col-md-5">
+        <div className="col-md-5">
           <svg
-            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
             width="500"
             height="500"
             xmlns="http://www.w3.org/2000/svg"
@@ -131,24 +131,24 @@ function Rest() {
         </div>
       </div>
 
-      <hr class="featurette-divider" />
+      <hr className="featurette-divider" />
 
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">
+      <div className="row featurette">
+        <div className="col-md-7 order-md-2">
+          <h2 className="featurette-heading">
             Oh yeah, it’s that good.{" "}
-            <span class="text-muted">See for yourself.</span>
+            <span className="text-muted">See for yourself.</span>
           </h2>
-          <p class="lead">
+          <p className="lead">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
             ligula porta felis euismod semper. Praesent commodo cursus magna,
             vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
             commodo.
           </p>
         </div>
-        <div class="col-md-5 order-md-1">
+        <div className="col-md-5 order-md-1">
           <svg
-            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
             width="500"
             height="500"
             xmlns="http://www.w3.org/2000/svg"
@@ -166,23 +166,23 @@ function Rest() {
         </div>
       </div>
 
-      <hr class="featurette-divider" />
+      <hr className="featurette-divider" />
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">
-            And lastly, this one. <span class="text-muted">Checkmate.</span>
+      <div className="row featurette">
+        <div className="col-md-7">
+          <h2 className="featurette-heading">
+            And lastly, this one. <span className="text-muted">Checkmate.</span>
           </h2>
-          <p class="lead">
+          <p className="lead">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
             ligula porta felis euismod semper. Praesent commodo cursus magna,
             vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
             commodo.
           </p>
         </div>
-        <div class="col-md-5">
+        <div className="col-md-5">
           <svg
-            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
             width="500"
             height="500"
             xmlns="http://www.w3.org/2000/svg"
@@ -200,7 +200,7 @@ function Rest() {
         </div>
       </div>
 
-      <hr class="featurette-divider" />
+      <hr className="featurette-divider" />
     </div>
   );
 }
